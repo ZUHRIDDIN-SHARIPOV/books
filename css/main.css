@@ -1,0 +1,140 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-color: black;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.hero {
+  margin-top: 77px;
+  margin-bottom: 23px;
+}
+.hero__item-title {
+  font-weight: 500;
+  font-size: 23px;
+  color: white;
+}
+.hero__item-author {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 21px;
+  color: white;
+}
+.hero__item-year {
+  padding-top: 15px;
+  font-size: 21px;
+  color: white;
+}
+.hero__item-genre {
+  padding-top: 13px;
+  font-weight: 500;
+  font-size: 19px;
+  color: white;
+}
+.hero__item {
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 21px;
+  padding: 20px;
+}
+.hero__item:hover {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(1%, blueviolet),
+    to(red)
+  );
+  border: none;
+}
+.hero__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.site-header {
+  margin-top: 23px;
+  border: 1px solid white;
+  border-left: none;
+  border-right: none;
+  padding: 15px 7px;
+}
+.site-header__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.site-header__item:nth-child(1) .site-header__link{
+  color: white;
+  font-weight: 500;
+  border: 1px solid white;
+  padding: 7px 15px;
+  font-size: 17px;
+}
+.site-header__item:nth-child(1) .site-header__link:hover{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(1%, blueviolet),
+    to(red)
+  );
+  border: none;
+  border-radius: 7px;
+}
+.site-header__item:nth-child(2) .site-header__link {
+  margin-left: 150px;
+  padding: 7px 15px;
+  color: white;
+  border: 1px solid white;
+}
+.site-header__item:nth-child(2) .site-header__link:hover{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(1%, blueviolet),
+    to(red)
+  );
+  border: none;
+  border-radius: 7px;
+}
